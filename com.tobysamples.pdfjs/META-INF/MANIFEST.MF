@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pdfjs Plug-in
+Bundle-SymbolicName: com.tobysamples.pdfjs;singleton:=true
+Bundle-Version: 1.0.15
+Bundle-Activator: com.tobysamples.pdfjs.Activator
+Bundle-Vendor: Toby Samples
+Require-Bundle: org.eclipse.core.runtime,
+ com.ibm.xsp.core,
+ com.ibm.xsp.domino,
+ com.ibm.commons
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: com.ibm.xsp.library,
+ com.ibm.xsp.resource,
+ javax.faces,
+ javax.faces.application,
+ javax.faces.component,
+ javax.faces.component.html,
+ javax.faces.component.visit,
+ javax.faces.context,
+ javax.faces.convert,
+ javax.faces.el,
+ javax.faces.event,
+ javax.faces.lifecycle,
+ javax.faces.model,
+ javax.faces.render,
+ javax.faces.validator,
+ javax.faces.webapp
+Bundle-ActivationPolicy: lazy

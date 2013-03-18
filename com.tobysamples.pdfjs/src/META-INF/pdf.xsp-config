@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+<faces-config-extension>
+<namespace-uri>http://www.tobysamples.com/control</namespace-uri>
+<default-prefix>ts</default-prefix>
+</faces-config-extension>
+<component>
+<description>PDF</description>
+
+<display-name>PDF</display-name>
+<component-type>com.tobysamples.pdfjs.PDF</component-type>
+<component-class>com.tobysamples.pdfjs.PDF</component-class>
+
+<component-extension>
+<tag-name>pdfjs</tag-name>
+<component-family>com.tobysamples.pdfjs.component.PDF</component-family>
+<designer-extension>
+<category>PDF-JS</category>
+<in-palette>true</in-palette>
+</designer-extension>
+</component-extension>
+
+<property>
+<description>Canvas ID</description>
+<display-name>Canvas ID</display-name>
+<property-name>canvasId</property-name>
+<property-class>java.lang.String</property-class>
+<property-extension>
+<required>true</required>
+<designer-extension>
+	<category>PDF-JS</category>
+</designer-extension>
+</property-extension>
+</property>
+
+<property>
+<description>URL of PDF to display</description>
+<display-name>PDF URL</display-name>
+<property-name>pdfURL</property-name>
+<property-class>java.lang.String</property-class>
+<property-extension>
+<required>true</required>
+<designer-extension>
+	<category>PDF-JS</category>
+</designer-extension>
+</property-extension>
+</property>
+</component>
+</faces-config>

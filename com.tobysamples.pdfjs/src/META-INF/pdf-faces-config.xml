@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+<render-kit>
+<renderer>
+<component-family>com.tobysamples.pdfjs.component.PDF</component-family>
+<renderer-type>com.tobysamples.pdfjs.component.PDFRenderer</renderer-type>
+<renderer-class>com.tobysamples.pdfjs.PDFRenderer</renderer-class>
+</renderer>
+</render-kit>
+</faces-config>
